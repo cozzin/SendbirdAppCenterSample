@@ -16,7 +16,7 @@
 		5F190567291E6B29006532B6 /* SendbirdAppCenterSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F190566291E6B29006532B6 /* SendbirdAppCenterSampleTests.swift */; };
 		5F190571291E6B29006532B6 /* SendbirdAppCenterSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F190570291E6B29006532B6 /* SendbirdAppCenterSampleUITests.swift */; };
 		5F190573291E6B29006532B6 /* SendbirdAppCenterSampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F190572291E6B29006532B6 /* SendbirdAppCenterSampleUITestsLaunchTests.swift */; };
-		5F190581291E6C02006532B6 /* SendbirdChatSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 5F190580291E6C02006532B6 /* SendbirdChatSDK */; };
+		5F190586291E6EE8006532B6 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 5F190585291E6EE8006532B6 /* Alamofire */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,7 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F190581291E6C02006532B6 /* SendbirdChatSDK in Frameworks */,
+				5F190586291E6EE8006532B6 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,7 +146,7 @@
 			);
 			name = SendbirdAppCenterSample;
 			packageProductDependencies = (
-				5F190580291E6C02006532B6 /* SendbirdChatSDK */,
+				5F190585291E6EE8006532B6 /* Alamofire */,
 			);
 			productName = SendbirdAppCenterSample;
 			productReference = 5F19054C291E6B28006532B6 /* SendbirdAppCenterSample.app */;
@@ -221,7 +221,7 @@
 			);
 			mainGroup = 5F190543291E6B28006532B6;
 			packageReferences = (
-				5F19057F291E6C02006532B6 /* XCRemoteSwiftPackageReference "sendbird-chat-sdk-ios" */,
+				5F190584291E6EE8006532B6 /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			productRefGroup = 5F19054D291E6B28006532B6 /* Products */;
 			projectDirPath = "";
@@ -606,21 +606,21 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		5F19057F291E6C02006532B6 /* XCRemoteSwiftPackageReference "sendbird-chat-sdk-ios" */ = {
+		5F190584291E6EE8006532B6 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/sendbird/sendbird-chat-sdk-ios";
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
 			requirement = {
-				branch = master;
-				kind = branch;
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		5F190580291E6C02006532B6 /* SendbirdChatSDK */ = {
+		5F190585291E6EE8006532B6 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5F19057F291E6C02006532B6 /* XCRemoteSwiftPackageReference "sendbird-chat-sdk-ios" */;
-			productName = SendbirdChatSDK;
+			package = 5F190584291E6EE8006532B6 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

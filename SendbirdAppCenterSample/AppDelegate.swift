@@ -6,27 +6,30 @@
 //
 
 import UIKit
-import SendbirdChatSDK
+//import SendbirdChatSDK
+import Alamofire
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        let initParams = InitParams(
-            applicationId: "APP_ID",
-            isLocalCachingEnabled: true,
-            logLevel: .info
-        )
         
-        SendbirdChat.initialize(
-            params: initParams,
-            migrationStartHandler: {
-                // Migration starts.
-            },
-            completionHandler: { error in
-                // Migration completed.
-            }
-        )
+        _ = AlamofireNotifications.self
+//        let initParams = InitParams(
+//            applicationId: "APP_ID",
+//            isLocalCachingEnabled: true,
+//            logLevel: .info
+//        )
+//
+//        SendbirdChat.initialize(
+//            params: initParams,
+//            migrationStartHandler: {
+//                // Migration starts.
+//            },
+//            completionHandler: { error in
+//                // Migration completed.
+//            }
+//        )
         
         return true
     }

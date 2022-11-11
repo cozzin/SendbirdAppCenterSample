@@ -1,12 +1,12 @@
 {
   "pins" : [
     {
-      "identity" : "sendbird-chat-sdk-ios",
+      "identity" : "alamofire",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/sendbird/sendbird-chat-sdk-ios",
+      "location" : "https://github.com/Alamofire/Alamofire",
       "state" : {
-        "branch" : "master",
-        "revision" : "427986a9aa859c977a781948bd87ba7510c956b4"
+        "revision" : "8dd85aee02e39dd280c75eef88ffdb86eed4b07b",
+        "version" : "5.6.2"
       }
     }
   ],
